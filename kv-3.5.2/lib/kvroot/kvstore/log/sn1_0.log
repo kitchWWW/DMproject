@@ -18,3 +18,24 @@
 2016-04-20 02:57:44.189 UTC INFO [sn1] sn: sn1 state transition: State RN:rg1-rn1 state: MASTER top seq num: 14 active masters:[rg1-rn1] active replicas:0 replica leases:0
 2016-04-20 02:57:44.189 UTC INFO [sn1] Acquiring initial topology from RNs
 2016-04-20 02:57:44.193 UTC INFO [sn1] Topology acquired from RN: rg1-rn1 Topo seq#: 14
+2016-04-20 05:33:45.480 UTC INFO [sn1] Starting StorageNodeAgent for kvstore
+2016-04-20 05:33:45.483 UTC INFO [sn1] Creating a Registry on port wireless-10-147-36-30.public.utexas.edu:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2016-04-20 05:33:45.588 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2016-04-20 05:33:53.063 UTC INFO [sn1] Starting StorageNodeAgent for kvstore
+2016-04-20 05:33:53.064 UTC INFO [sn1] Creating a Registry on port wireless-10-147-36-30.public.utexas.edu:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2016-04-20 05:33:53.115 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2016-04-20 05:35:09.985 UTC INFO [sn1] Starting StorageNodeAgent for kvstore
+2016-04-20 05:35:09.986 UTC INFO [sn1] Creating a Registry on port wireless-10-147-36-30.public.utexas.edu:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2016-04-20 05:35:10.040 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2016-04-20 05:35:17.431 UTC INFO [sn1] Starting StorageNodeAgent for kvstore
+2016-04-20 05:35:17.432 UTC INFO [sn1] Creating a Registry on port wireless-10-147-36-30.public.utexas.edu:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2016-04-20 05:35:17.481 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2016-04-20 05:35:24.882 UTC INFO [sn1] Starting StorageNodeAgent for kvstore
+2016-04-20 05:35:24.883 UTC INFO [sn1] Creating a Registry on port wireless-10-147-36-30.public.utexas.edu:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2016-04-20 05:35:24.933 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2016-04-20 05:35:28.085 UTC INFO [sn1] Starting StorageNodeAgent for kvstore
+2016-04-20 05:35:28.087 UTC INFO [sn1] Creating a Registry on port wireless-10-147-36-30.public.utexas.edu:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2016-04-20 05:35:28.139 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent
+2016-04-20 05:36:03.915 UTC INFO [sn1] Starting StorageNodeAgent for kvstore
+2016-04-20 05:36:03.916 UTC INFO [sn1] Creating a Registry on port wireless-10-147-36-30.public.utexas.edu:5000 server socket factory:<ClearServerSocketFactory name=registry backlog=1024 port range=0,0>
+2016-04-20 05:36:03.970 UTC INFO [sn1] Using mgmt class oracle.kv.impl.mgmt.NoOpAgent

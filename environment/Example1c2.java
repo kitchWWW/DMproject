@@ -22,19 +22,20 @@ public class Example1c2 {
 
    
     try {
-      OracleNoSqlConnection conn 
-           = OracleNoSqlConnection.createInstance("kvstore",
-                                                  "localhost", 
-                                                  "5000");
-      System.out.println("*** Login Credentials: "+szStoreName +", "+szHostName+", "+szHostPort);   
+      // OracleNoSqlConnection conn 
+      //      = OracleNoSqlConnection.createInstance("kvstore",
+      //                                             "localhost", 
+      //                                             "5000");
+      // System.out.println("*** Login Credentials: "+szStoreName +", "+szHostName+", "+szHostPort);   
 
       String NS = "urn:x-hp-jena:eg/";
-    // Build a trivial example data set
-      Model rdfsExample = OracleModelNoSql.createOracleDefaultModelNoSql(conn);
+
+      //Model rdfsExample = OracleModelNoSql.createOracleDefaultModelNoSql(conn);
+      Model rdfsExample = ModelFactory.createDefaultModel(); //Works for usage without KV-3.etc
+
       Property p = rdfsExample.createProperty(NS, "p");
       Property q = rdfsExample.createProperty(NS, "q");
       rdfsExample.add(p, RDFS.subPropertyOf, q);
-     // rdfsExample.add(q, p, RDFS.SUBPROPERTYOF);
       rdfsExample.createResource(NS+"a").addProperty(p, "foo");
       
       Reasoner reasoner = ReasonerRegistry.getRDFSReasoner();
@@ -43,10 +44,10 @@ public class Example1c2 {
       Resource a = inf.getResource(NS+"a");
 
       System.out.println("Statement: " + a.getProperty(p));
-//    Because we added, should put:  Statement: [urn:x-hp-jena:eg/a, urn:x-hp-jena:eg/p, "foo"^^http://www.w3.org/2001/XMLSchema#string]
+//    Because we added, should put:  Statement: [urn:x-hp-jena:eg/a, urn:x-hp-jena:eg/p, "foo"]
 
       System.out.println("Statement: " + a.getProperty(q));
-//    Because inference, should put:  Statement: [urn:x-hp-jena:eg/a, urn:x-hp-jena:eg/q, "foo"^^http://www.w3.org/2001/XMLSchema#string]
+//    Because inference, should put:  Statement: [urn:x-hp-jena:eg/a, urn:x-hp-jena:eg/q, "foo"]
 
 
     } catch(Exception e){
