@@ -12,17 +12,10 @@ public class Example1c3 {
   
   public static void main(String[] args) throws Exception 
   {
-          
-    String szStoreName  = args[0];
-    String szHostName   = args[1];
-    String szHostPort   = args[2];
-
-    // the rulebase id used for inferred triples 
-    int iRuleBaseId     = Integer.parseInt(args[3]); 
-
    
     try {
-      //connection information silenced to allow at-home work
+      
+      System.out.println("*** Example1c3 "+System.currentTimeMillis());
 
       String NS = "urn:x-hp-jena:eg/";
     
@@ -48,7 +41,7 @@ public class Example1c3 {
 
       System.out.println("Statement: " + b.getProperty(c));
       //Prints NULL because the Jena OWL Inference Engine only supports a subset of the vocabulary, not including "inverseOf"
-          //It does inplement an InverseFunctionalProperty, but that returns a resource
+          //It does inplement an InverseFunctionalProperty, but that returns a resource, and we don't know what to do with that
 
     } catch(Exception e){
       e.printStackTrace();
