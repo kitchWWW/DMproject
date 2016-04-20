@@ -1,0 +1,12 @@
+2016-04-20 02:57:43.149 UTC INFO [rg1-rn1] Started ServiceDispatcher. HostPort=wireless-10-147-36-30.public.utexas.edu:5006
+2016-04-20 02:57:43.149 UTC INFO [rg1-rn1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2016-04-20 02:57:43.152 UTC INFO [rg1-rn1] Current group size: 0
+2016-04-20 02:57:43.152 UTC INFO [rg1-rn1] New node rg1-rn1(-1) unknown to rep group
+2016-04-20 02:57:43.153 UTC INFO [rg1-rn1] Master changed to rg1-rn1
+2016-04-20 02:57:43.153 UTC INFO [rg1-rn1] Nascent group. rg1-rn1 is master by virtue of being the first node.
+2016-04-20 02:57:43.161 UTC INFO [rg1-rn1] Successfully added node:rg1-rn1(1) HostPort = wireless-10-147-36-30.public.utexas.edu: 5006 [ELECTABLE]
+2016-04-20 02:57:43.162 UTC INFO [rg1-rn1] Refreshed 0 monitors.
+2016-04-20 02:57:43.163 UTC INFO [rg1-rn1] Node rg1-rn1 started
+2016-04-20 02:57:43.163 UTC INFO [rg1-rn1] Feeder manager accepting requests.
+2016-04-20 02:57:43.163 UTC INFO [rg1-rn1] Joining group as master
+2016-04-20 02:57:43.163 UTC INFO [rg1-rn1] Refreshed 0 monitors.

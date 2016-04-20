@@ -1,0 +1,1754 @@
+2016-04-20 02:58:04.138 UTC INFO [kvstore] rg1-rn1 (02:57:43.053 UTC -> 02:58:00.058 UTC)
+Cache
+	adminBytes=589
+	cacheTotalBytes=16,828,293
+	dataAdminBytes=3,544
+	dataBytes=49,032
+	lockBytes=1,456
+	lruMixedSize=7
+	nBINsFetch=109
+	nCachedBINs=7
+	nCachedUpperINs=7
+	nINNoTarget=4
+	nINSparseTarget=8
+	nLNsFetch=31
+	nLNsFetchMiss=15
+Checkpoints
+	lastCheckpointEnd=0x0/0x42e
+	lastCheckpointId=1
+	lastCheckpointInterval=466
+	lastCheckpointStart=0x0/0x1d2
+	nCheckpoints=1
+	nFullBINFlush=2
+	nFullINFlush=4
+Cleaning
+	lastKnownUtilization=49
+	totalLogSize=181,682
+I/O
+	bufferBytes=16,777,216
+	endOfLog=0x0/0x2c3e5
+	nFSyncRequests=5
+	nFSyncTime=15
+	nFSyncs=5
+	nFileOpens=4
+	nGroupCommitRequests=19
+	nLogBuffers=16
+	nLogFSyncs=9
+	nNotResident=15
+	nRandomWriteBytes=38
+	nRandomWrites=1
+	nSequentialReadBytes=12,288
+	nSequentialReads=3
+	nSequentialWriteBytes=181,682
+	nSequentialWrites=22
+Locks
+	nOwners=13
+	nReadLocks=13
+	nRequests=112
+	nTotalLocks=13
+Environment
+	environmentCreationTime=1,461,121,063,121
+Op
+	cursorPut=1
+	cursorPutNoOverwrite=1
+	dbGet=27
+	dbPut=15
+
+2016-04-20 02:58:04.139 UTC INFO [kvstore] rg1-rn1 (02:57:43.053 UTC -> 02:58:00.058 UTC)
+FeederManager
+	nMaxReplicaLag=NONE
+FeederTxns
+	lastCommitTimestamp=1,461,121,064,152
+	lastCommitVLSN=37
+	vlsnRate=913
+Replay
+	maxCommitProcessingNanos=NONE
+	minCommitProcessingNanos=NONE
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+VLSNIndex
+	nBucketsCreated=1
+
+2016-04-20 02:58:04.139 UTC INFO [kvstore] rg1-rn1 (02:57:43.053 UTC -> 02:58:00.058 UTC)
+Replication State: MASTER
+2016-04-20 02:58:04.140 UTC INFO [kvstore] rg1-rn1 (02:57:43.053 UTC -> 02:58:00.058 UTC)
+Memory
+	freeMemory=102199440
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 02:59:04.089 UTC INFO [kvstore] rg1-rn1 (02:58:00.058 UTC -> 02:59:00.059 UTC)
+Replication State: MASTER
+2016-04-20 02:59:04.089 UTC INFO [kvstore] rg1-rn1 (02:58:00.058 UTC -> 02:59:00.059 UTC)
+Memory
+	freeMemory=93595616
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:00:04.108 UTC INFO [kvstore] rg1-rn1 (02:59:00.059 UTC -> 03:00:00.062 UTC)
+Cache
+	adminBytes=589
+	cacheTotalBytes=16,865,117
+	dataAdminBytes=4,584
+	dataBytes=85,856
+	lockBytes=1,456
+	lruMixedSize=17
+	nBINsFetch=80
+	nCachedBINs=17
+	nCachedUpperINs=17
+	nINNoTarget=14
+	nINSparseTarget=18
+	nLNsFetch=30
+	nLNsFetchMiss=30
+Checkpoints
+	lastCheckpointEnd=0x0/0x42e
+	lastCheckpointId=1
+	lastCheckpointInterval=466
+	lastCheckpointStart=0x0/0x1d2
+Cleaning
+	lastKnownUtilization=49
+	totalLogSize=189,437
+I/O
+	bufferBytes=16,777,216
+	endOfLog=0x0/0x2e3ff
+	nLogBuffers=16
+	nNotResident=30
+Locks
+	nOwners=13
+	nReadLocks=13
+	nRequests=88
+	nTotalLocks=13
+Environment
+	environmentCreationTime=1,461,121,063,121
+Op
+	cursorGetNext=34
+	cursorPutNoOverwrite=68
+
+2016-04-20 03:00:04.108 UTC INFO [kvstore] rg1-rn1 (02:59:00.059 UTC -> 03:00:00.062 UTC)
+FeederTxns
+	lastCommitTimestamp=1,461,121,181,998
+	lastCommitVLSN=145
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+
+2016-04-20 03:00:04.108 UTC INFO [kvstore] rg1-rn1 (02:59:00.059 UTC -> 03:00:00.062 UTC)
+Replication State: MASTER
+2016-04-20 03:00:04.109 UTC INFO [kvstore] rg1-rn1 (02:59:00.059 UTC -> 03:00:00.062 UTC)
+Memory
+	freeMemory=89631840
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:01:04.092 UTC INFO [kvstore] rg1-rn1 (03:00:00.062 UTC -> 03:01:00.064 UTC)
+Replication State: MASTER
+2016-04-20 03:01:04.092 UTC INFO [kvstore] rg1-rn1 (03:00:00.062 UTC -> 03:01:00.064 UTC)
+Memory
+	freeMemory=86499536
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:02:04.091 UTC INFO [kvstore] rg1-rn1 (03:01:00.064 UTC -> 03:02:00.065 UTC)
+Replication State: MASTER
+2016-04-20 03:02:04.091 UTC INFO [kvstore] rg1-rn1 (03:01:00.064 UTC -> 03:02:00.065 UTC)
+Memory
+	freeMemory=85031248
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:03:04.099 UTC INFO [kvstore] rg1-rn1 (03:02:00.065 UTC -> 03:03:00.069 UTC)
+Replication State: MASTER
+2016-04-20 03:03:04.099 UTC INFO [kvstore] rg1-rn1 (03:02:00.065 UTC -> 03:03:00.069 UTC)
+Memory
+	freeMemory=81195072
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:04:04.102 UTC INFO [kvstore] rg1-rn1 (03:03:00.069 UTC -> 03:04:00.071 UTC)
+Replication State: MASTER
+2016-04-20 03:04:04.102 UTC INFO [kvstore] rg1-rn1 (03:03:00.069 UTC -> 03:04:00.071 UTC)
+Memory
+	freeMemory=79999832
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:05:04.105 UTC INFO [kvstore] rg1-rn1 (03:04:00.071 UTC -> 03:05:00.077 UTC)
+Replication State: MASTER
+2016-04-20 03:05:04.105 UTC INFO [kvstore] rg1-rn1 (03:04:00.071 UTC -> 03:05:00.077 UTC)
+Memory
+	freeMemory=78305288
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:06:04.104 UTC INFO [kvstore] rg1-rn1 (03:05:00.077 UTC -> 03:06:00.080 UTC)
+Replication State: MASTER
+2016-04-20 03:06:04.104 UTC INFO [kvstore] rg1-rn1 (03:05:00.077 UTC -> 03:06:00.080 UTC)
+Memory
+	freeMemory=76750584
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:07:04.711 UTC INFO [kvstore] rg1-rn1 (03:06:00.080 UTC -> 03:07:00.681 UTC)
+Replication State: MASTER
+2016-04-20 03:07:04.711 UTC INFO [kvstore] rg1-rn1 (03:06:00.080 UTC -> 03:07:00.681 UTC)
+Memory
+	freeMemory=74951712
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:08:04.710 UTC INFO [kvstore] rg1-rn1 (03:07:00.681 UTC -> 03:08:00.684 UTC)
+Replication State: MASTER
+2016-04-20 03:08:04.710 UTC INFO [kvstore] rg1-rn1 (03:07:00.681 UTC -> 03:08:00.684 UTC)
+Memory
+	freeMemory=72903272
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:09:04.717 UTC INFO [kvstore] rg1-rn1 (03:08:00.684 UTC -> 03:09:00.684 UTC)
+Replication State: MASTER
+2016-04-20 03:09:04.717 UTC INFO [kvstore] rg1-rn1 (03:08:00.684 UTC -> 03:09:00.684 UTC)
+Memory
+	freeMemory=71591120
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:10:04.719 UTC INFO [kvstore] rg1-rn1 (03:09:00.684 UTC -> 03:10:00.692 UTC)
+Replication State: MASTER
+2016-04-20 03:10:04.719 UTC INFO [kvstore] rg1-rn1 (03:09:00.684 UTC -> 03:10:00.692 UTC)
+Memory
+	freeMemory=69763136
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:11:04.723 UTC INFO [kvstore] rg1-rn1 (03:10:00.692 UTC -> 03:11:00.694 UTC)
+Replication State: MASTER
+2016-04-20 03:11:04.723 UTC INFO [kvstore] rg1-rn1 (03:10:00.692 UTC -> 03:11:00.694 UTC)
+Memory
+	freeMemory=68400712
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:12:04.725 UTC INFO [kvstore] rg1-rn1 (03:11:00.694 UTC -> 03:12:00.693 UTC)
+Replication State: MASTER
+2016-04-20 03:12:04.725 UTC INFO [kvstore] rg1-rn1 (03:11:00.694 UTC -> 03:12:00.693 UTC)
+Memory
+	freeMemory=66448064
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:13:04.724 UTC INFO [kvstore] rg1-rn1 (03:12:00.693 UTC -> 03:13:00.696 UTC)
+Replication State: MASTER
+2016-04-20 03:13:04.724 UTC INFO [kvstore] rg1-rn1 (03:12:00.693 UTC -> 03:13:00.696 UTC)
+Memory
+	freeMemory=65047336
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:14:04.730 UTC INFO [kvstore] rg1-rn1 (03:13:00.696 UTC -> 03:14:00.700 UTC)
+Replication State: MASTER
+2016-04-20 03:14:04.730 UTC INFO [kvstore] rg1-rn1 (03:13:00.696 UTC -> 03:14:00.700 UTC)
+Memory
+	freeMemory=63460920
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:15:04.732 UTC INFO [kvstore] rg1-rn1 (03:14:00.700 UTC -> 03:15:00.706 UTC)
+Replication State: MASTER
+2016-04-20 03:15:04.732 UTC INFO [kvstore] rg1-rn1 (03:14:00.700 UTC -> 03:15:00.706 UTC)
+Memory
+	freeMemory=61918128
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:16:04.732 UTC INFO [kvstore] rg1-rn1 (03:15:00.706 UTC -> 03:16:00.707 UTC)
+Replication State: MASTER
+2016-04-20 03:16:04.732 UTC INFO [kvstore] rg1-rn1 (03:15:00.706 UTC -> 03:16:00.707 UTC)
+Memory
+	freeMemory=60352712
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:17:04.737 UTC INFO [kvstore] rg1-rn1 (03:16:00.707 UTC -> 03:17:00.710 UTC)
+Replication State: MASTER
+2016-04-20 03:17:04.737 UTC INFO [kvstore] rg1-rn1 (03:16:00.707 UTC -> 03:17:00.710 UTC)
+Memory
+	freeMemory=58516328
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:18:04.741 UTC INFO [kvstore] rg1-rn1 (03:17:00.710 UTC -> 03:18:00.711 UTC)
+Replication State: MASTER
+2016-04-20 03:18:04.741 UTC INFO [kvstore] rg1-rn1 (03:17:00.710 UTC -> 03:18:00.711 UTC)
+Memory
+	freeMemory=56651624
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:19:04.744 UTC INFO [kvstore] rg1-rn1 (03:18:00.711 UTC -> 03:19:00.715 UTC)
+Replication State: MASTER
+2016-04-20 03:19:04.744 UTC INFO [kvstore] rg1-rn1 (03:18:00.711 UTC -> 03:19:00.715 UTC)
+Memory
+	freeMemory=54917336
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:20:04.745 UTC INFO [kvstore] rg1-rn1 (03:19:00.715 UTC -> 03:20:00.717 UTC)
+Replication State: MASTER
+2016-04-20 03:20:04.745 UTC INFO [kvstore] rg1-rn1 (03:19:00.715 UTC -> 03:20:00.717 UTC)
+Memory
+	freeMemory=53453672
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:21:04.747 UTC INFO [kvstore] rg1-rn1 (03:20:00.717 UTC -> 03:21:00.721 UTC)
+Replication State: MASTER
+2016-04-20 03:21:04.747 UTC INFO [kvstore] rg1-rn1 (03:20:00.717 UTC -> 03:21:00.721 UTC)
+Memory
+	freeMemory=51904536
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:22:04.747 UTC INFO [kvstore] rg1-rn1 (03:21:00.721 UTC -> 03:22:00.725 UTC)
+Replication State: MASTER
+2016-04-20 03:22:04.747 UTC INFO [kvstore] rg1-rn1 (03:21:00.721 UTC -> 03:22:00.725 UTC)
+Memory
+	freeMemory=50216704
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:23:04.754 UTC INFO [kvstore] rg1-rn1 (03:22:00.725 UTC -> 03:23:00.724 UTC)
+Replication State: MASTER
+2016-04-20 03:23:04.754 UTC INFO [kvstore] rg1-rn1 (03:22:00.725 UTC -> 03:23:00.724 UTC)
+Memory
+	freeMemory=48672864
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:24:04.757 UTC INFO [kvstore] rg1-rn1 (03:23:00.724 UTC -> 03:24:00.730 UTC)
+Replication State: MASTER
+2016-04-20 03:24:04.757 UTC INFO [kvstore] rg1-rn1 (03:23:00.724 UTC -> 03:24:00.730 UTC)
+Memory
+	freeMemory=47125144
+	maxMemory=1908932608
+	totalMemory=168296448
+PS Scavenge
+	count=5
+	time=43
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:25:04.758 UTC INFO [kvstore] rg1-rn1 (03:24:00.730 UTC -> 03:25:00.733 UTC)
+Replication State: MASTER
+2016-04-20 03:25:04.758 UTC INFO [kvstore] rg1-rn1 (03:24:00.730 UTC -> 03:25:00.733 UTC)
+Memory
+	freeMemory=108108496
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:26:04.758 UTC INFO [kvstore] rg1-rn1 (03:25:00.733 UTC -> 03:26:00.732 UTC)
+Replication State: MASTER
+2016-04-20 03:26:04.759 UTC INFO [kvstore] rg1-rn1 (03:25:00.733 UTC -> 03:26:00.732 UTC)
+Memory
+	freeMemory=106375264
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:27:04.765 UTC INFO [kvstore] rg1-rn1 (03:26:00.732 UTC -> 03:27:00.735 UTC)
+Replication State: MASTER
+2016-04-20 03:27:04.765 UTC INFO [kvstore] rg1-rn1 (03:26:00.732 UTC -> 03:27:00.735 UTC)
+Memory
+	freeMemory=104808872
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:28:04.765 UTC INFO [kvstore] rg1-rn1 (03:27:00.735 UTC -> 03:28:00.737 UTC)
+Replication State: MASTER
+2016-04-20 03:28:04.765 UTC INFO [kvstore] rg1-rn1 (03:27:00.735 UTC -> 03:28:00.737 UTC)
+Memory
+	freeMemory=101773104
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:29:04.770 UTC INFO [kvstore] rg1-rn1 (03:28:00.737 UTC -> 03:29:00.743 UTC)
+Replication State: MASTER
+2016-04-20 03:29:04.770 UTC INFO [kvstore] rg1-rn1 (03:28:00.737 UTC -> 03:29:00.743 UTC)
+Memory
+	freeMemory=100286080
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:30:04.770 UTC INFO [kvstore] rg1-rn1 (03:29:00.743 UTC -> 03:30:00.745 UTC)
+Replication State: MASTER
+2016-04-20 03:30:04.770 UTC INFO [kvstore] rg1-rn1 (03:29:00.743 UTC -> 03:30:00.745 UTC)
+Memory
+	freeMemory=98727160
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:31:04.772 UTC INFO [kvstore] rg1-rn1 (03:30:00.745 UTC -> 03:31:00.749 UTC)
+Replication State: MASTER
+2016-04-20 03:31:04.772 UTC INFO [kvstore] rg1-rn1 (03:30:00.745 UTC -> 03:31:00.749 UTC)
+Memory
+	freeMemory=97055344
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:32:04.778 UTC INFO [kvstore] rg1-rn1 (03:31:00.749 UTC -> 03:32:00.747 UTC)
+Replication State: MASTER
+2016-04-20 03:32:04.778 UTC INFO [kvstore] rg1-rn1 (03:31:00.749 UTC -> 03:32:00.747 UTC)
+Memory
+	freeMemory=95422360
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:33:04.776 UTC INFO [kvstore] rg1-rn1 (03:32:00.747 UTC -> 03:33:00.751 UTC)
+Replication State: MASTER
+2016-04-20 03:33:04.776 UTC INFO [kvstore] rg1-rn1 (03:32:00.747 UTC -> 03:33:00.751 UTC)
+Memory
+	freeMemory=93455568
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:34:04.779 UTC INFO [kvstore] rg1-rn1 (03:33:00.751 UTC -> 03:34:00.756 UTC)
+Replication State: MASTER
+2016-04-20 03:34:04.779 UTC INFO [kvstore] rg1-rn1 (03:33:00.751 UTC -> 03:34:00.756 UTC)
+Memory
+	freeMemory=92048200
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:35:04.783 UTC INFO [kvstore] rg1-rn1 (03:34:00.756 UTC -> 03:35:00.755 UTC)
+Replication State: MASTER
+2016-04-20 03:35:04.783 UTC INFO [kvstore] rg1-rn1 (03:34:00.756 UTC -> 03:35:00.755 UTC)
+Memory
+	freeMemory=90397728
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:36:04.784 UTC INFO [kvstore] rg1-rn1 (03:35:00.755 UTC -> 03:36:00.757 UTC)
+Replication State: MASTER
+2016-04-20 03:36:04.784 UTC INFO [kvstore] rg1-rn1 (03:35:00.755 UTC -> 03:36:00.757 UTC)
+Memory
+	freeMemory=88856168
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:37:04.790 UTC INFO [kvstore] rg1-rn1 (03:36:00.757 UTC -> 03:37:00.759 UTC)
+Replication State: MASTER
+2016-04-20 03:37:04.790 UTC INFO [kvstore] rg1-rn1 (03:36:00.757 UTC -> 03:37:00.759 UTC)
+Memory
+	freeMemory=87261216
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:38:04.792 UTC INFO [kvstore] rg1-rn1 (03:37:00.759 UTC -> 03:38:00.764 UTC)
+Replication State: MASTER
+2016-04-20 03:38:04.792 UTC INFO [kvstore] rg1-rn1 (03:37:00.759 UTC -> 03:38:00.764 UTC)
+Memory
+	freeMemory=85230008
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:39:04.794 UTC INFO [kvstore] rg1-rn1 (03:38:00.764 UTC -> 03:39:00.767 UTC)
+Replication State: MASTER
+2016-04-20 03:39:04.794 UTC INFO [kvstore] rg1-rn1 (03:38:00.764 UTC -> 03:39:00.767 UTC)
+Memory
+	freeMemory=83991216
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:40:04.798 UTC INFO [kvstore] rg1-rn1 (03:39:00.767 UTC -> 03:40:00.768 UTC)
+Replication State: MASTER
+2016-04-20 03:40:04.798 UTC INFO [kvstore] rg1-rn1 (03:39:00.767 UTC -> 03:40:00.768 UTC)
+Memory
+	freeMemory=82642096
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:41:04.798 UTC INFO [kvstore] rg1-rn1 (03:40:00.768 UTC -> 03:41:00.775 UTC)
+Replication State: MASTER
+2016-04-20 03:41:04.798 UTC INFO [kvstore] rg1-rn1 (03:40:00.768 UTC -> 03:41:00.775 UTC)
+Memory
+	freeMemory=80822304
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:42:04.803 UTC INFO [kvstore] rg1-rn1 (03:41:00.775 UTC -> 03:42:00.774 UTC)
+Replication State: MASTER
+2016-04-20 03:42:04.813 UTC INFO [kvstore] rg1-rn1 (03:41:00.775 UTC -> 03:42:00.774 UTC)
+Memory
+	freeMemory=79327048
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:43:04.806 UTC INFO [kvstore] rg1-rn1 (03:42:00.774 UTC -> 03:43:00.779 UTC)
+Replication State: MASTER
+2016-04-20 03:43:04.806 UTC INFO [kvstore] rg1-rn1 (03:42:00.774 UTC -> 03:43:00.779 UTC)
+Memory
+	freeMemory=77503560
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:44:04.809 UTC INFO [kvstore] rg1-rn1 (03:43:00.779 UTC -> 03:44:00.779 UTC)
+Replication State: MASTER
+2016-04-20 03:44:04.809 UTC INFO [kvstore] rg1-rn1 (03:43:00.779 UTC -> 03:44:00.779 UTC)
+Memory
+	freeMemory=76233376
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:45:04.806 UTC INFO [kvstore] rg1-rn1 (03:44:00.779 UTC -> 03:45:00.780 UTC)
+Replication State: MASTER
+2016-04-20 03:45:04.806 UTC INFO [kvstore] rg1-rn1 (03:44:00.779 UTC -> 03:45:00.780 UTC)
+Memory
+	freeMemory=74463560
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:46:04.809 UTC INFO [kvstore] rg1-rn1 (03:45:00.780 UTC -> 03:46:00.783 UTC)
+Replication State: MASTER
+2016-04-20 03:46:04.809 UTC INFO [kvstore] rg1-rn1 (03:45:00.780 UTC -> 03:46:00.783 UTC)
+Memory
+	freeMemory=72933176
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:47:04.816 UTC INFO [kvstore] rg1-rn1 (03:46:00.783 UTC -> 03:47:00.784 UTC)
+Replication State: MASTER
+2016-04-20 03:47:04.816 UTC INFO [kvstore] rg1-rn1 (03:46:00.783 UTC -> 03:47:00.784 UTC)
+Memory
+	freeMemory=71411616
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:48:04.817 UTC INFO [kvstore] rg1-rn1 (03:47:00.784 UTC -> 03:48:00.791 UTC)
+Replication State: MASTER
+2016-04-20 03:48:04.818 UTC INFO [kvstore] rg1-rn1 (03:47:00.784 UTC -> 03:48:00.791 UTC)
+Memory
+	freeMemory=68900056
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:49:04.820 UTC INFO [kvstore] rg1-rn1 (03:48:00.791 UTC -> 03:49:00.788 UTC)
+Replication State: MASTER
+2016-04-20 03:49:04.820 UTC INFO [kvstore] rg1-rn1 (03:48:00.791 UTC -> 03:49:00.788 UTC)
+Memory
+	freeMemory=67667280
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:50:04.819 UTC INFO [kvstore] rg1-rn1 (03:49:00.788 UTC -> 03:50:00.791 UTC)
+Replication State: MASTER
+2016-04-20 03:50:04.819 UTC INFO [kvstore] rg1-rn1 (03:49:00.788 UTC -> 03:50:00.791 UTC)
+Memory
+	freeMemory=66071656
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:51:04.820 UTC INFO [kvstore] rg1-rn1 (03:50:00.791 UTC -> 03:51:00.793 UTC)
+Replication State: MASTER
+2016-04-20 03:51:04.820 UTC INFO [kvstore] rg1-rn1 (03:50:00.791 UTC -> 03:51:00.793 UTC)
+Memory
+	freeMemory=64329264
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:52:04.827 UTC INFO [kvstore] rg1-rn1 (03:51:00.793 UTC -> 03:52:00.800 UTC)
+Replication State: MASTER
+2016-04-20 03:52:04.827 UTC INFO [kvstore] rg1-rn1 (03:51:00.793 UTC -> 03:52:00.800 UTC)
+Memory
+	freeMemory=62640248
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:53:04.825 UTC INFO [kvstore] rg1-rn1 (03:52:00.800 UTC -> 03:53:00.803 UTC)
+Replication State: MASTER
+2016-04-20 03:53:04.825 UTC INFO [kvstore] rg1-rn1 (03:52:00.800 UTC -> 03:53:00.803 UTC)
+Memory
+	freeMemory=61026216
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:54:04.832 UTC INFO [kvstore] rg1-rn1 (03:53:00.803 UTC -> 03:54:00.805 UTC)
+Replication State: MASTER
+2016-04-20 03:54:04.832 UTC INFO [kvstore] rg1-rn1 (03:53:00.803 UTC -> 03:54:00.805 UTC)
+Memory
+	freeMemory=59499328
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:55:04.829 UTC INFO [kvstore] rg1-rn1 (03:54:00.805 UTC -> 03:55:00.807 UTC)
+Replication State: MASTER
+2016-04-20 03:55:04.829 UTC INFO [kvstore] rg1-rn1 (03:54:00.805 UTC -> 03:55:00.807 UTC)
+Memory
+	freeMemory=58058752
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:56:04.834 UTC INFO [kvstore] rg1-rn1 (03:55:00.807 UTC -> 03:56:00.805 UTC)
+Replication State: MASTER
+2016-04-20 03:56:04.834 UTC INFO [kvstore] rg1-rn1 (03:55:00.807 UTC -> 03:56:00.805 UTC)
+Memory
+	freeMemory=56558128
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:57:04.834 UTC INFO [kvstore] rg1-rn1 (03:56:00.805 UTC -> 03:57:00.809 UTC)
+Replication State: MASTER
+2016-04-20 03:57:04.834 UTC INFO [kvstore] rg1-rn1 (03:56:00.805 UTC -> 03:57:00.809 UTC)
+Memory
+	freeMemory=54813112
+	maxMemory=1908932608
+	totalMemory=166723584
+PS Scavenge
+	count=6
+	time=52
+PS MarkSweep
+	count=2
+	time=41
+
+2016-04-20 03:58:04.841 UTC INFO [kvstore] rg1-rn1 (03:57:00.809 UTC -> 03:58:00.811 UTC)
+Replication State: MASTER
+2016-04-20 03:58:04.841 UTC INFO [kvstore] rg1-rn1 (03:57:00.809 UTC -> 03:58:00.811 UTC)
+Memory
+	freeMemory=118700016
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 03:59:04.844 UTC INFO [kvstore] rg1-rn1 (03:58:00.811 UTC -> 03:59:00.817 UTC)
+Replication State: MASTER
+2016-04-20 03:59:04.844 UTC INFO [kvstore] rg1-rn1 (03:58:00.811 UTC -> 03:59:00.817 UTC)
+Memory
+	freeMemory=117346760
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:00:04.846 UTC INFO [kvstore] rg1-rn1 (03:59:00.817 UTC -> 04:00:00.814 UTC)
+Replication State: MASTER
+2016-04-20 04:00:04.846 UTC INFO [kvstore] rg1-rn1 (03:59:00.817 UTC -> 04:00:00.814 UTC)
+Memory
+	freeMemory=115805248
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:01:04.845 UTC INFO [kvstore] rg1-rn1 (04:00:00.814 UTC -> 04:01:00.818 UTC)
+Replication State: MASTER
+2016-04-20 04:01:04.845 UTC INFO [kvstore] rg1-rn1 (04:00:00.814 UTC -> 04:01:00.818 UTC)
+Memory
+	freeMemory=114056344
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:02:04.847 UTC INFO [kvstore] rg1-rn1 (04:01:00.818 UTC -> 04:02:00.823 UTC)
+Replication State: MASTER
+2016-04-20 04:02:04.847 UTC INFO [kvstore] rg1-rn1 (04:01:00.818 UTC -> 04:02:00.823 UTC)
+Memory
+	freeMemory=112801656
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:03:04.847 UTC INFO [kvstore] rg1-rn1 (04:02:00.823 UTC -> 04:03:00.822 UTC)
+Replication State: MASTER
+2016-04-20 04:03:04.847 UTC INFO [kvstore] rg1-rn1 (04:02:00.823 UTC -> 04:03:00.822 UTC)
+Memory
+	freeMemory=110479608
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:04:04.849 UTC INFO [kvstore] rg1-rn1 (04:03:00.822 UTC -> 04:04:00.823 UTC)
+Replication State: MASTER
+2016-04-20 04:04:04.850 UTC INFO [kvstore] rg1-rn1 (04:03:00.822 UTC -> 04:04:00.823 UTC)
+Memory
+	freeMemory=109129720
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:05:04.855 UTC INFO [kvstore] rg1-rn1 (04:04:00.823 UTC -> 04:05:00.830 UTC)
+Replication State: MASTER
+2016-04-20 04:05:04.855 UTC INFO [kvstore] rg1-rn1 (04:04:00.823 UTC -> 04:05:00.830 UTC)
+Memory
+	freeMemory=107733416
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:06:04.854 UTC INFO [kvstore] rg1-rn1 (04:05:00.830 UTC -> 04:06:00.832 UTC)
+Replication State: MASTER
+2016-04-20 04:06:04.854 UTC INFO [kvstore] rg1-rn1 (04:05:00.830 UTC -> 04:06:00.832 UTC)
+Memory
+	freeMemory=106072664
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:07:04.861 UTC INFO [kvstore] rg1-rn1 (04:06:00.832 UTC -> 04:07:00.829 UTC)
+Replication State: MASTER
+2016-04-20 04:07:04.861 UTC INFO [kvstore] rg1-rn1 (04:06:00.832 UTC -> 04:07:00.829 UTC)
+Memory
+	freeMemory=104642944
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:08:04.858 UTC INFO [kvstore] rg1-rn1 (04:07:00.829 UTC -> 04:08:00.833 UTC)
+Replication State: MASTER
+2016-04-20 04:08:04.858 UTC INFO [kvstore] rg1-rn1 (04:07:00.829 UTC -> 04:08:00.833 UTC)
+Memory
+	freeMemory=102712672
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:09:04.888 UTC INFO [kvstore] rg1-rn1 (04:08:00.833 UTC -> 04:09:00.837 UTC)
+Cache
+	adminBytes=589
+	cacheTotalBytes=16,866,181
+	dataAdminBytes=4,584
+	dataBytes=86,920
+	lockBytes=1,456
+	lruMixedSize=17
+	nBINsFetch=73
+	nCachedBINs=17
+	nCachedUpperINs=17
+	nINNoTarget=14
+	nINSparseTarget=18
+	nLNsFetch=30
+	nLNsFetchMiss=30
+Checkpoints
+	lastCheckpointEnd=0x0/0x42e
+	lastCheckpointId=1
+	lastCheckpointInterval=466
+	lastCheckpointStart=0x0/0x1d2
+Cleaning
+	lastKnownUtilization=49
+	totalLogSize=192,742
+I/O
+	bufferBytes=16,777,216
+	endOfLog=0x0/0x2f0e8
+	nLogBuffers=16
+	nNotResident=30
+Locks
+	nOwners=13
+	nReadLocks=13
+	nRequests=60
+	nTotalLocks=13
+Environment
+	environmentCreationTime=1,461,121,063,121
+Op
+	cursorGetNext=31
+	cursorPutNoOverwrite=37
+
+2016-04-20 04:09:04.888 UTC INFO [kvstore] rg1-rn1 (04:08:00.833 UTC -> 04:09:00.837 UTC)
+FeederTxns
+	lastCommitTimestamp=1,461,125,323,491
+	lastCommitVLSN=203
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+
+2016-04-20 04:09:04.888 UTC INFO [kvstore] rg1-rn1 (04:08:00.833 UTC -> 04:09:00.837 UTC)
+Replication State: MASTER
+2016-04-20 04:09:04.888 UTC INFO [kvstore] rg1-rn1 (04:08:00.833 UTC -> 04:09:00.837 UTC)
+Memory
+	freeMemory=99500944
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:10:04.864 UTC INFO [kvstore] rg1-rn1 (04:09:00.837 UTC -> 04:10:00.836 UTC)
+Replication State: MASTER
+2016-04-20 04:10:04.864 UTC INFO [kvstore] rg1-rn1 (04:09:00.837 UTC -> 04:10:00.836 UTC)
+Memory
+	freeMemory=95193872
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:11:04.866 UTC INFO [kvstore] rg1-rn1 (04:10:00.836 UTC -> 04:11:00.842 UTC)
+Replication State: MASTER
+2016-04-20 04:11:04.866 UTC INFO [kvstore] rg1-rn1 (04:10:00.836 UTC -> 04:11:00.842 UTC)
+Memory
+	freeMemory=93552952
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:12:04.872 UTC INFO [kvstore] rg1-rn1 (04:11:00.842 UTC -> 04:12:00.842 UTC)
+Replication State: MASTER
+2016-04-20 04:12:04.872 UTC INFO [kvstore] rg1-rn1 (04:11:00.842 UTC -> 04:12:00.842 UTC)
+Memory
+	freeMemory=92043816
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:13:04.872 UTC INFO [kvstore] rg1-rn1 (04:12:00.842 UTC -> 04:13:00.848 UTC)
+Replication State: MASTER
+2016-04-20 04:13:04.872 UTC INFO [kvstore] rg1-rn1 (04:12:00.842 UTC -> 04:13:00.848 UTC)
+Memory
+	freeMemory=89959240
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:14:04.875 UTC INFO [kvstore] rg1-rn1 (04:13:00.848 UTC -> 04:14:00.850 UTC)
+Replication State: MASTER
+2016-04-20 04:14:04.875 UTC INFO [kvstore] rg1-rn1 (04:13:00.848 UTC -> 04:14:00.850 UTC)
+Memory
+	freeMemory=88683520
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:15:04.879 UTC INFO [kvstore] rg1-rn1 (04:14:00.850 UTC -> 04:15:00.847 UTC)
+Replication State: MASTER
+2016-04-20 04:15:04.879 UTC INFO [kvstore] rg1-rn1 (04:14:00.850 UTC -> 04:15:00.847 UTC)
+Memory
+	freeMemory=87088696
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:16:04.876 UTC INFO [kvstore] rg1-rn1 (04:15:00.847 UTC -> 04:16:00.850 UTC)
+Replication State: MASTER
+2016-04-20 04:16:04.876 UTC INFO [kvstore] rg1-rn1 (04:15:00.847 UTC -> 04:16:00.850 UTC)
+Memory
+	freeMemory=85591128
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:17:04.878 UTC INFO [kvstore] rg1-rn1 (04:16:00.850 UTC -> 04:17:00.852 UTC)
+Replication State: MASTER
+2016-04-20 04:17:04.878 UTC INFO [kvstore] rg1-rn1 (04:16:00.850 UTC -> 04:17:00.852 UTC)
+Memory
+	freeMemory=83883776
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:18:04.885 UTC INFO [kvstore] rg1-rn1 (04:17:00.852 UTC -> 04:18:00.857 UTC)
+Replication State: MASTER
+2016-04-20 04:18:04.885 UTC INFO [kvstore] rg1-rn1 (04:17:00.852 UTC -> 04:18:00.857 UTC)
+Memory
+	freeMemory=81861640
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:19:04.883 UTC INFO [kvstore] rg1-rn1 (04:18:00.857 UTC -> 04:19:00.858 UTC)
+Replication State: MASTER
+2016-04-20 04:19:04.883 UTC INFO [kvstore] rg1-rn1 (04:18:00.857 UTC -> 04:19:00.858 UTC)
+Memory
+	freeMemory=80677088
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:20:04.889 UTC INFO [kvstore] rg1-rn1 (04:19:00.858 UTC -> 04:20:00.864 UTC)
+Replication State: MASTER
+2016-04-20 04:20:04.889 UTC INFO [kvstore] rg1-rn1 (04:19:00.858 UTC -> 04:20:00.864 UTC)
+Memory
+	freeMemory=77398432
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:21:04.894 UTC INFO [kvstore] rg1-rn1 (04:20:00.864 UTC -> 04:21:00.865 UTC)
+Cache
+	adminBytes=589
+	cacheTotalBytes=16,867,245
+	dataAdminBytes=4,584
+	dataBytes=87,984
+	lockBytes=1,456
+	lruMixedSize=17
+	nBINsFetch=73
+	nCachedBINs=17
+	nCachedUpperINs=17
+	nINNoTarget=14
+	nINSparseTarget=18
+	nLNsFetch=30
+	nLNsFetchMiss=30
+Checkpoints
+	lastCheckpointEnd=0x0/0x42e
+	lastCheckpointId=1
+	lastCheckpointInterval=466
+	lastCheckpointStart=0x0/0x1d2
+Cleaning
+	lastKnownUtilization=49
+	totalLogSize=194,098
+I/O
+	bufferBytes=16,777,216
+	endOfLog=0x0/0x2f634
+	nLogBuffers=16
+	nNotResident=30
+Locks
+	nOwners=13
+	nReadLocks=13
+	nRequests=43
+	nTotalLocks=13
+Environment
+	environmentCreationTime=1,461,121,063,121
+Op
+	cursorGetNext=31
+	cursorPutNoOverwrite=37
+
+2016-04-20 04:21:04.895 UTC INFO [kvstore] rg1-rn1 (04:20:00.864 UTC -> 04:21:00.865 UTC)
+FeederTxns
+	lastCommitTimestamp=1,461,126,005,526
+	lastCommitVLSN=227
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+
+2016-04-20 04:21:04.895 UTC INFO [kvstore] rg1-rn1 (04:20:00.864 UTC -> 04:21:00.865 UTC)
+Replication State: MASTER
+2016-04-20 04:21:04.895 UTC INFO [kvstore] rg1-rn1 (04:20:00.864 UTC -> 04:21:00.865 UTC)
+Memory
+	freeMemory=74740368
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:22:04.895 UTC INFO [kvstore] rg1-rn1 (04:21:00.865 UTC -> 04:22:00.868 UTC)
+Replication State: MASTER
+2016-04-20 04:22:04.895 UTC INFO [kvstore] rg1-rn1 (04:21:00.865 UTC -> 04:22:00.868 UTC)
+Memory
+	freeMemory=71811824
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:23:04.893 UTC INFO [kvstore] rg1-rn1 (04:22:00.868 UTC -> 04:23:00.867 UTC)
+Replication State: MASTER
+2016-04-20 04:23:04.893 UTC INFO [kvstore] rg1-rn1 (04:22:00.868 UTC -> 04:23:00.867 UTC)
+Memory
+	freeMemory=69988416
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:24:04.899 UTC INFO [kvstore] rg1-rn1 (04:23:00.867 UTC -> 04:24:00.867 UTC)
+Replication State: MASTER
+2016-04-20 04:24:04.899 UTC INFO [kvstore] rg1-rn1 (04:23:00.867 UTC -> 04:24:00.867 UTC)
+Memory
+	freeMemory=68485320
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:25:04.897 UTC INFO [kvstore] rg1-rn1 (04:24:00.867 UTC -> 04:25:00.873 UTC)
+Replication State: MASTER
+2016-04-20 04:25:04.897 UTC INFO [kvstore] rg1-rn1 (04:24:00.867 UTC -> 04:25:00.873 UTC)
+Memory
+	freeMemory=66758456
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:26:04.903 UTC INFO [kvstore] rg1-rn1 (04:25:00.873 UTC -> 04:26:00.873 UTC)
+Replication State: MASTER
+2016-04-20 04:26:04.903 UTC INFO [kvstore] rg1-rn1 (04:25:00.873 UTC -> 04:26:00.873 UTC)
+Memory
+	freeMemory=65573336
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:27:04.902 UTC INFO [kvstore] rg1-rn1 (04:26:00.873 UTC -> 04:27:00.875 UTC)
+Replication State: MASTER
+2016-04-20 04:27:04.903 UTC INFO [kvstore] rg1-rn1 (04:26:00.873 UTC -> 04:27:00.875 UTC)
+Memory
+	freeMemory=63003280
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:28:04.902 UTC INFO [kvstore] rg1-rn1 (04:27:00.875 UTC -> 04:28:00.881 UTC)
+Replication State: MASTER
+2016-04-20 04:28:04.902 UTC INFO [kvstore] rg1-rn1 (04:27:00.875 UTC -> 04:28:00.881 UTC)
+Memory
+	freeMemory=60738104
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:29:04.905 UTC INFO [kvstore] rg1-rn1 (04:28:00.881 UTC -> 04:29:00.880 UTC)
+Replication State: MASTER
+2016-04-20 04:29:04.905 UTC INFO [kvstore] rg1-rn1 (04:28:00.881 UTC -> 04:29:00.880 UTC)
+Memory
+	freeMemory=59499072
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:30:04.908 UTC INFO [kvstore] rg1-rn1 (04:29:00.880 UTC -> 04:30:00.885 UTC)
+Replication State: MASTER
+2016-04-20 04:30:04.908 UTC INFO [kvstore] rg1-rn1 (04:29:00.880 UTC -> 04:30:00.885 UTC)
+Memory
+	freeMemory=57025968
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:31:04.910 UTC INFO [kvstore] rg1-rn1 (04:30:00.885 UTC -> 04:31:00.887 UTC)
+Replication State: MASTER
+2016-04-20 04:31:04.910 UTC INFO [kvstore] rg1-rn1 (04:30:00.885 UTC -> 04:31:00.887 UTC)
+Memory
+	freeMemory=55362384
+	maxMemory=1908932608
+	totalMemory=167247872
+PS Scavenge
+	count=7
+	time=59
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:32:04.912 UTC INFO [kvstore] rg1-rn1 (04:31:00.887 UTC -> 04:32:00.890 UTC)
+Replication State: MASTER
+2016-04-20 04:32:04.912 UTC INFO [kvstore] rg1-rn1 (04:31:00.887 UTC -> 04:32:00.890 UTC)
+Memory
+	freeMemory=139453352
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:33:04.918 UTC INFO [kvstore] rg1-rn1 (04:32:00.890 UTC -> 04:33:00.888 UTC)
+Replication State: MASTER
+2016-04-20 04:33:04.918 UTC INFO [kvstore] rg1-rn1 (04:32:00.890 UTC -> 04:33:00.888 UTC)
+Memory
+	freeMemory=136451680
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:34:04.917 UTC INFO [kvstore] rg1-rn1 (04:33:00.888 UTC -> 04:34:00.895 UTC)
+Replication State: MASTER
+2016-04-20 04:34:04.917 UTC INFO [kvstore] rg1-rn1 (04:33:00.888 UTC -> 04:34:00.895 UTC)
+Memory
+	freeMemory=134935472
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:35:04.919 UTC INFO [kvstore] rg1-rn1 (04:34:00.895 UTC -> 04:35:00.897 UTC)
+Replication State: MASTER
+2016-04-20 04:35:04.919 UTC INFO [kvstore] rg1-rn1 (04:34:00.895 UTC -> 04:35:00.897 UTC)
+Memory
+	freeMemory=133359368
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:36:04.926 UTC INFO [kvstore] rg1-rn1 (04:35:00.897 UTC -> 04:36:00.899 UTC)
+Replication State: MASTER
+2016-04-20 04:36:04.926 UTC INFO [kvstore] rg1-rn1 (04:35:00.897 UTC -> 04:36:00.899 UTC)
+Memory
+	freeMemory=131746184
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:37:04.926 UTC INFO [kvstore] rg1-rn1 (04:36:00.899 UTC -> 04:37:00.897 UTC)
+Replication State: MASTER
+2016-04-20 04:37:04.926 UTC INFO [kvstore] rg1-rn1 (04:36:00.899 UTC -> 04:37:00.897 UTC)
+Memory
+	freeMemory=130467376
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:38:04.924 UTC INFO [kvstore] rg1-rn1 (04:37:00.897 UTC -> 04:38:00.898 UTC)
+Replication State: MASTER
+2016-04-20 04:38:04.924 UTC INFO [kvstore] rg1-rn1 (04:37:00.897 UTC -> 04:38:00.898 UTC)
+Memory
+	freeMemory=128397592
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:39:04.928 UTC INFO [kvstore] rg1-rn1 (04:38:00.898 UTC -> 04:39:00.901 UTC)
+Replication State: MASTER
+2016-04-20 04:39:04.928 UTC INFO [kvstore] rg1-rn1 (04:38:00.898 UTC -> 04:39:00.901 UTC)
+Memory
+	freeMemory=127080840
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:40:04.934 UTC INFO [kvstore] rg1-rn1 (04:39:00.901 UTC -> 04:40:00.907 UTC)
+Replication State: MASTER
+2016-04-20 04:40:04.934 UTC INFO [kvstore] rg1-rn1 (04:39:00.901 UTC -> 04:40:00.907 UTC)
+Memory
+	freeMemory=125879544
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:41:04.942 UTC INFO [kvstore] rg1-rn1 (04:40:00.907 UTC -> 04:41:00.905 UTC)
+Cache
+	adminBytes=589
+	cacheTotalBytes=16,867,245
+	dataAdminBytes=4,584
+	dataBytes=87,984
+	lockBytes=1,456
+	lruMixedSize=17
+	nBINsFetch=77
+	nCachedBINs=17
+	nCachedUpperINs=17
+	nINNoTarget=14
+	nINSparseTarget=18
+	nLNsFetch=30
+	nLNsFetchMiss=30
+Checkpoints
+	lastCheckpointEnd=0x0/0x42e
+	lastCheckpointId=1
+	lastCheckpointInterval=466
+	lastCheckpointStart=0x0/0x1d2
+Cleaning
+	lastKnownUtilization=49
+	totalLogSize=195,610
+I/O
+	bufferBytes=16,777,216
+	endOfLog=0x0/0x2fc1b
+	nLogBuffers=16
+	nNotResident=30
+Locks
+	nOwners=13
+	nReadLocks=13
+	nRequests=49
+	nTotalLocks=13
+Environment
+	environmentCreationTime=1,461,121,063,121
+Op
+	cursorGetNext=36
+	cursorPutNoOverwrite=37
+
+2016-04-20 04:41:04.942 UTC INFO [kvstore] rg1-rn1 (04:40:00.907 UTC -> 04:41:00.905 UTC)
+FeederTxns
+	lastCommitTimestamp=1,461,127,259,964
+	lastCommitVLSN=253
+BinaryProtocol
+	bytesReadPerSecond=0
+	bytesWrittenPerSecond=0
+	messagesReadPerSecond=0
+	messagesWrittenPerSecond=0
+
+2016-04-20 04:41:04.942 UTC INFO [kvstore] rg1-rn1 (04:40:00.907 UTC -> 04:41:00.905 UTC)
+Replication State: MASTER
+2016-04-20 04:41:04.942 UTC INFO [kvstore] rg1-rn1 (04:40:00.907 UTC -> 04:41:00.905 UTC)
+Memory
+	freeMemory=121851808
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:42:04.938 UTC INFO [kvstore] rg1-rn1 (04:41:00.905 UTC -> 04:42:00.912 UTC)
+Replication State: MASTER
+2016-04-20 04:42:04.938 UTC INFO [kvstore] rg1-rn1 (04:41:00.905 UTC -> 04:42:00.912 UTC)
+Memory
+	freeMemory=119162232
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
+2016-04-20 04:43:04.938 UTC INFO [kvstore] rg1-rn1 (04:42:00.912 UTC -> 04:43:00.912 UTC)
+Replication State: MASTER
+2016-04-20 04:43:04.948 UTC INFO [kvstore] rg1-rn1 (04:42:00.912 UTC -> 04:43:00.912 UTC)
+Memory
+	freeMemory=115159384
+	maxMemory=1908932608
+	totalMemory=189792256
+PS Scavenge
+	count=8
+	time=64
+PS MarkSweep
+	count=3
+	time=106
+
