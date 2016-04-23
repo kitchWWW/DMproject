@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: jena-core
+Implementation-Version: 2.7.4
+Implementation-Vendor-Id: org.apache.jena
+Built-By: afs
+Build-Jdk: 1.7.0_07
+Specification-Vendor: The Apache Software Foundation
+Specification-Title: jena-core
+Created-By: Apache Maven 3.0.4
+Specification-Version: 2.7.4
+Archiver-Version: Plexus Archiver
+

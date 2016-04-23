@@ -56,5 +56,26 @@ public class Example1c2 {
     System.out.println("Statement: " + a.getProperty(q));
 //    Because inference, should put:  Statement: [urn:x-hp-jena:eg/a, urn:x-hp-jena:eg/q, "foo"]
 
+     String prefix = 
+               " PREFIX ORACLE_SEM_FS_NS: <http://oracle.com/semtech#" +
+               "include_rulebase_id=" + iRuleBaseId + ">";
+            
+      String szQuery = prefix + " select ?x ?y ?z WHERE {?x ?y ?z} ";
+          
+      System.out.println("Execute query " + szQuery);
+          
+      Query query = QueryFactory.create(szQuery) ;
+      QueryExecution qexec = QueryExecutionFactory.create(query, rdfsExample);
+          
+      try {
+            ResultSet results = qexec.execSelect();
+            ResultSetFormatter.out(System.out, results, query);
+          }
+      finally {
+            qexec.close();
+          }
+
+
+
   }
 } 

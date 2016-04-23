@@ -1,3 +1,10 @@
-*** Example1c2 1461165890814
+*** Example1c2 1461183394423
 Statement: [urn:x-hp-jena:eg/a, urn:x-hp-jena:eg/p, "foo"]
 Statement: [urn:x-hp-jena:eg/a, urn:x-hp-jena:eg/q, "foo"]
+Execute query  PREFIX ORACLE_SEM_FS_NS: <http://oracle.com/semtech#include_rulebase_id=1> select ?x ?y ?z WHERE {?x ?y ?z} 
+------------------------------------------------------------------------------------------------------
+| x                    | y                                                    | z                    |
+======================================================================================================
+| <urn:x-hp-jena:eg/a> | <urn:x-hp-jena:eg/p>                                 | "foo"                |
+| <urn:x-hp-jena:eg/p> | <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> | <urn:x-hp-jena:eg/q> |
+------------------------------------------------------------------------------------------------------
