@@ -1,12 +1,12 @@
-2016-04-20 02:57:41.530 UTC INFO [1] Started ServiceDispatcher. HostPort=wireless-10-147-36-30.public.utexas.edu:5005
-2016-04-20 02:57:41.531 UTC INFO [1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
-2016-04-20 02:57:41.574 UTC INFO [1] Current group size: 0
-2016-04-20 02:57:41.574 UTC INFO [1] New node 1(-1) unknown to rep group
-2016-04-20 02:57:41.574 UTC INFO [1] Master changed to 1
-2016-04-20 02:57:41.575 UTC INFO [1] Nascent group. 1 is master by virtue of being the first node.
-2016-04-20 02:57:41.586 UTC INFO [1] Successfully added node:1(1) HostPort = wireless-10-147-36-30.public.utexas.edu: 5005 [ELECTABLE]
-2016-04-20 02:57:41.588 UTC INFO [1] Refreshed 0 monitors.
-2016-04-20 02:57:41.591 UTC INFO [1] Node 1 started
-2016-04-20 02:57:41.592 UTC INFO [1] Feeder manager accepting requests.
-2016-04-20 02:57:41.593 UTC INFO [1] Joining group as master
-2016-04-20 02:57:41.593 UTC INFO [1] Refreshed 0 monitors.
+2016-04-23 04:07:48.664 UTC INFO [1] Started ServiceDispatcher. HostPort=wireless-10-148-64-86.public.utexas.edu:5005
+2016-04-23 04:07:48.664 UTC INFO [1] DataChannel factory: com.sleepycat.je.rep.utilint.net.SimpleChannelFactory
+2016-04-23 04:07:48.706 UTC INFO [1] Current group size: 0
+2016-04-23 04:07:48.706 UTC INFO [1] New node 1(-1) unknown to rep group
+2016-04-23 04:07:48.707 UTC INFO [1] Master changed to 1
+2016-04-23 04:07:48.707 UTC INFO [1] Nascent group. 1 is master by virtue of being the first node.
+2016-04-23 04:07:48.718 UTC INFO [1] Successfully added node:1(1) HostPort = wireless-10-148-64-86.public.utexas.edu: 5005 [ELECTABLE]
+2016-04-23 04:07:48.720 UTC INFO [1] Refreshed 0 monitors.
+2016-04-23 04:07:48.723 UTC INFO [1] Node 1 started
+2016-04-23 04:07:48.724 UTC INFO [1] Feeder manager accepting requests.
+2016-04-23 04:07:48.725 UTC INFO [1] Joining group as master
+2016-04-23 04:07:48.725 UTC INFO [1] Refreshed 0 monitors.
