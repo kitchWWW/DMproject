@@ -1,0 +1,9 @@
+conn = connectTo 'OracleNoSQL' 'WDBE6' 'localhost:8001' 'native_mode' 'A0'
+conn = connectTo 'OracleNoSQL' 'WDBE6' 'localhost:8001' 'rdf_mode_mode' 'A0'
+
+RDF on conn 'sim_dept Steven laptop MBA'
+RDF on conn 'sim_dept laptop http://www.w3.org/2000/01/rdf-schema#subPropertyOf computer'
+
+results = SPARQL on conn 'select ?g ?s ?p ?o where { GRAPH ?g { ?s ?p ?o } }'
+for r in sorted(results):
+	print r
