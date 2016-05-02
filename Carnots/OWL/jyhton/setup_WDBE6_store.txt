@@ -1,0 +1,10 @@
+### Begin WDB Script ###
+configure -name WDBE6
+plan deploy-zone -name "WDB_zone" -rf 1 -wait
+plan deploy-sn -dc zn1 -host localhost -port 8001 -wait
+plan deploy-admin -sn sn1 -port 8009 -wait
+pool create -name WDBPool
+pool join -name WDBPool -sn sn1
+topology create -name WDBTopology -pool WDBPool -partitions 2
+plan deploy-topology -name WDBTopology -wait
+### End WDB Script ###
